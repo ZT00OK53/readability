@@ -1,12 +1,13 @@
 {
     "name": "zehntech/readability",
-    "description": "A simple utility to capitalize the first letter of a string",
+    "description": "A laravel port of Readability.js",
+    "keywords": ["laravel readability", "html", "PHP readability in laravel"],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "your@email.com"
+            "name": "Omkar Kurmi",
+            "email": "omkar.kurmi@zehntech.com"
         }
     ],
     "minimum-stability": "dev",
