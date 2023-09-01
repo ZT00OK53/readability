@@ -1,0 +1,36 @@
+{
+    "name": "zehntech/readability",
+    "description": "A simple utility to capitalize the first letter of a string",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your@email.com"
+        }
+    ],
+    "require": {
+        "ext-dom": "*",
+        "ext-xml": "*",
+        "ext-mbstring": "*",
+        "masterminds/html5": "^2.8",
+        "league/uri": "~6.7.2"
+    },
+    "require-dev": {
+        "masterminds/html5": "^2.8",
+        "league/uri": "~6.7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zehntech\\Readability\\": "src/",
+            "Masterminds\\": "masterminds/html5/src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zehntech\\Readability\\ReadabilityServiceProvider"
+            ]
+        }
+    }
+}
