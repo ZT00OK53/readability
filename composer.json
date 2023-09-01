@@ -9,7 +9,7 @@
             "email": "your@email.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "ext-dom": "*",
         "ext-xml": "*",
